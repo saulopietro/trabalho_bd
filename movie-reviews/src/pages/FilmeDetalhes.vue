@@ -28,7 +28,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { supabase } from '../supabase'
+import { supabase } from '../lib/supabase'
 
 const route = useRoute()
 const movie = ref(null)
